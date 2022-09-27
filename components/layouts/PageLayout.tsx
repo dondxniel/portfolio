@@ -11,10 +11,8 @@ function PageLayout({ children }: { children: ReactNode }) {
 					content="Here lies a software engineer that's genuinely passionate about building great stuff."
 				/>
 			</Head>
-			<div className="flex flex-row">
-				<div className="flex flex-column"></div>
-				<div className="flex flex-column">{children}</div>
-			</div>
+
+			<div className="flex flex-col">{children}</div>
 		</main>
 	);
 }
