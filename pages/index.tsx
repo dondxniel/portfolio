@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 import Lottie from "react-lottie";
 import PageLayout from "../components/layouts/PageLayout";
-import construction from "/public/assets/lotties/construction.json";
+import construction from "../public/assets/lotties/construction.json";
 
 const Home: NextPage = () => {
 	return (
