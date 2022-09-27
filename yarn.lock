@@ -292,10 +292,10 @@
     "@typescript-eslint/types" "5.38.1"
     eslint-visitor-keys "^3.3.0"
 
-acid-ui@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/acid-ui/-/acid-ui-0.0.2.tgz#c503c20d0efce2e518820a828c74b0153becd8d3"
-  integrity sha512-IZN2AyqqnqOClywmMeVCly1jgdK5JaBm/Bh2Z9+v/CWi13lWm4C5lw9eKhNOqV6xNVFuqv6WFzzziNJb4mEAyQ==
+acid-ui@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/acid-ui/-/acid-ui-0.0.3.tgz#874ab55603c847e7133049dfce249cfd7d55c09b"
+  integrity sha512-LAI1aF1CYY12ncuOeqYpW/+Ro0ZZtp5HC2vDO+x1IYZybB7yjsKKFXP9XKEby5k2GoNSlOiJLHcd2/wAJjF4iA==
   dependencies:
     animate.css "^4.1.1"
 
