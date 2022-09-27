@@ -54,6 +54,7 @@ const Home: NextPage = () => {
 											src={"/assets/LinkedIn_logo.png"}
 											width={30}
 											height={30}
+											alt="LinkedIn Logo"
 										/>
 									</a>
 								</p>
@@ -70,6 +71,7 @@ const Home: NextPage = () => {
 											src={"/assets/Github-logo.png"}
 											width={30}
 											height={30}
+											alt="Github Logo"
 										/>
 									</a>
 								</p>
