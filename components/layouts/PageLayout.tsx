@@ -6,10 +6,7 @@ function PageLayout({ children }: { children: ReactNode }) {
 		<main>
 			<Head>
 				<title>Don Daniel | Software Engineer</title>
-				<meta
-					name="description"
-					content="Here lies a software engineer that's genuinely passionate about building great stuff."
-				/>
+				<meta name="description" content="A Software artist." />
 			</Head>
 
 			<div className="flex flex-col">{children}</div>
