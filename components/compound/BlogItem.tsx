@@ -6,7 +6,12 @@ function BlogItem({
 	item: { title: string; coverImage: string; slug: string };
 }) {
 	return (
-		<a href={blogUrl + item.slug} target="_blank" rel="noreferrer">
+		<a
+			href={blogUrl + item.slug}
+			target="_blank"
+			rel="noreferrer"
+			className="text-inherit no-underline"
+		>
 			<div className="group cursor-pointer">
 				<div className="h-56 w-full relative overflow-hidden bg-black rounded-2xl">
 					<img
