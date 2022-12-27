@@ -63,7 +63,7 @@ function ExperienceAndBlog({ blogPosts }: { blogPosts: any[] }) {
 						href={blogUrl}
 						target="_blank"
 						rel="noreferrer"
-						className="hover:text-blue-300 transition-all duration-200 "
+						className="link hover:text-blue-300 transition-all duration-200 "
 					>
 						TAP HERE TO SEE ALL POSTS
 					</a>

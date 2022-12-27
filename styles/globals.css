@@ -23,3 +23,6 @@
 	scrollbar-width: 0 !important;
 	overflow: hidden !important;
 }
+.link {
+	@apply text-inherit no-underline;
+}

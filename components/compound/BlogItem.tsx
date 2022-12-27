@@ -10,7 +10,7 @@ function BlogItem({
 			href={blogUrl + item.slug}
 			target="_blank"
 			rel="noreferrer"
-			className="text-inherit no-underline"
+			className="link"
 		>
 			<div className="group cursor-pointer">
 				<div className="h-56 w-full relative overflow-hidden bg-black rounded-2xl">
