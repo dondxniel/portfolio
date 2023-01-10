@@ -26,3 +26,11 @@
 .link {
 	@apply text-inherit no-underline;
 }
+
+.swiper {
+	@apply h-full w-72;
+}
+
+.swiper-slide {
+	@apply flex flex-row items-center justify-center rounded-[18px] font-bold w-auto bg-black/0;
+}

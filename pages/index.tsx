@@ -6,6 +6,7 @@ import Projects from "../components/complex/Projects";
 import SoftSkills from "../components/complex/SoftSkills";
 import TechnicalSkills from "../components/complex/TechnicalSkills";
 import PageLayout from "../components/layouts/PageLayout";
+import { hashnodeUsername } from "../constants/general";
 
 const Home: NextPage<{ blogPosts: any[] }> = ({ blogPosts }) => {
 	return (
@@ -29,7 +30,7 @@ export async function getServerSideProps() {
 	const { data } = await client.query({
 		query: gql`
 			query {
-				user(username: "dondaniel") {
+				user(username: "${hashnodeUsername}") {
 					publication {
 						posts(page: 0) {
 							title
@@ -41,12 +42,9 @@ export async function getServerSideProps() {
 			}
 		`,
 	});
-	const posts = data.user.publication.posts;
-	console.log(posts);
-
 	return {
 		props: {
-			blogPosts: posts,
+			blogPosts: data.user.publication.posts,
 		},
 	};
 }

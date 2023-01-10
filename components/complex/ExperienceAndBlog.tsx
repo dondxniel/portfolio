@@ -55,7 +55,7 @@ function ExperienceAndBlog({ blogPosts }: { blogPosts: any[] }) {
 				</div>
 				<div className="text-center py-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-3 px-3">
 					{blogPosts.map((item: any) => (
-						<BlogItem key={item._id} item={item} />
+						<BlogItem key={item.coverImage} item={item} />
 					))}
 				</div>
 				<div className="text-center">

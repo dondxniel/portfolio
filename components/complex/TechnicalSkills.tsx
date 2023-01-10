@@ -3,7 +3,7 @@ import HomeSectionHeader from "../simple/HomeSectionHeader";
 
 function TechnicalSkills() {
 	return (
-		<div className="py-3 flex flex-col justify-center">
+		<div className="py-3 pb-5 flex flex-col justify-center">
 			<div className="mb-10 flex flex-row justify-center">
 				<div className="md:w-auto w-full">
 					<HomeSectionHeader text="Technical Skills" />

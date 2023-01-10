@@ -35,16 +35,6 @@ export const technicalSkills = [
 		icon: "/assets/icons/react.png",
 	},
 	{
-		id: 7,
-		name: "GraphQL",
-		icon: "/assets/icons/graphql.png",
-	},
-	{
-		id: 18,
-		name: "Apollo Client",
-		icon: "/assets/icons/apollo.png",
-	},
-	{
 		id: 9,
 		name: "React Native",
 		icon: "/assets/icons/react-native.jpeg",
@@ -63,6 +53,16 @@ export const technicalSkills = [
 		id: 12,
 		name: "Nuxt Js",
 		icon: "/assets/icons/nuxt.png",
+	},
+	{
+		id: 7,
+		name: "GraphQL",
+		icon: "/assets/icons/graphql.png",
+	},
+	{
+		id: 18,
+		name: "Apollo Client",
+		icon: "/assets/icons/apollo.png",
 	},
 	{
 		id: 13,

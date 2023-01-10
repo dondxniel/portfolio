@@ -35,7 +35,7 @@ export default [
 		id: 5,
 		company: "Dixre Enterprise",
 		position: "Full stack Developer",
-		type: "Internship",
+		type: "Intern",
 		duration: "September 2017 - January 2019",
 		location: "Kaduna, Nigeria.",
 	},
