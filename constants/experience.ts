@@ -36,7 +36,7 @@ export default [
 		company: 'Medical Identification',
 		position: 'Frontend Lead',
 		type: 'Fulltime',
-		duration: 'August 2022 - Present',
+		duration: 'August 2022 - Feb 2023',
 		location: 'Kaduna, Nigeria.',
 	},
 	{

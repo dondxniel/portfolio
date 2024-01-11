@@ -3,6 +3,8 @@ import { blogUrl } from "../../constants/general";
 import BlogItem from "../compound/BlogItem";
 import HomeSectionHeader from "../simple/HomeSectionHeader";
 
+const reversedExperience = experience.reverse();
+
 function ExperienceAndBlog({ blogPosts }: { blogPosts: any[] }) {
 	return (
 		<div className='flex md:flex-row flex-col bg-gray-800 text-white pb-20 md:space-x-5'>
@@ -13,7 +15,7 @@ function ExperienceAndBlog({ blogPosts }: { blogPosts: any[] }) {
 					</div>
 				</div>
 				<div className='p-10 flex flex-col mt-5 font-light'>
-					{experience.reverse().map((item: any) => {
+					{reversedExperience.map((item: any) => {
 						let present: boolean =
 							item.duration.split('-')[1].trim().toLowerCase() ===
 							'present';

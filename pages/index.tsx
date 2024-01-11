@@ -2,7 +2,7 @@ import { ApolloClient, gql, InMemoryCache } from "@apollo/client";
 import type { NextPage } from "next";
 import ExperienceAndBlog from "../components/complex/ExperienceAndBlog";
 import Hero from "../components/complex/Hero";
-import Projects from "../components/complex/Projects";
+// import Projects from "../components/complex/Projects";
 import SoftSkills from "../components/complex/SoftSkills";
 import TechnicalSkills from "../components/complex/TechnicalSkills";
 import PageLayout from "../components/layouts/PageLayout";
@@ -15,7 +15,7 @@ const Home: NextPage<{ blogPosts: any[] }> = ({ blogPosts }) => {
 			<TechnicalSkills />
 			<SoftSkills />
 			<ExperienceAndBlog blogPosts={blogPosts} />
-			<Projects />
+			{/* <Projects /> */}
 		</PageLayout>
 	);
 };
