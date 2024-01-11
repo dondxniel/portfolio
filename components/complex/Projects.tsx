@@ -3,7 +3,6 @@ import { projects } from "../../constants/projects";
 import ProjectItem from "../compound/ProjectItem";
 import Tabs from "../compound/Tabs";
 import HomeSectionHeader from "../simple/HomeSectionHeader";
-
 function Projects() {
 	const [activeTab, setActiveTab] = useState(Object.keys(projects)[0]);
 	return (
